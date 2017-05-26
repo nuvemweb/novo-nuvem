@@ -1,0 +1,366 @@
+/* code for animated blinking cursor */
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+        .typed-fade-out{
+            opacity: 0;
+            animation: 0;
+            transition: opacity .25s;
+        }
+
+/*FIM CURSOR */
+
+body{
+    
+}
+
+.fundohome{
+    background-color: #166BA2 !important;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.fundosobre{
+    background-color: #166BA2 !important;
+    height: 600px;
+    width: 100%;
+    
+}
+
+.type-wrap{
+    font-family: 'opensansbold';
+    color: white;
+   text-transform: uppercase;
+    font-size: 40pt;
+   
+}
+
+#texto-header{
+    color: white;
+    font-family: 'opensansbold';
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: #166BA2 !important;
+}
+
+
+.laranja{
+    color: yellow;
+}
+.wrap{
+top: 250px;
+}
+
+.tracado{
+    height: 350px;
+    background: white;
+    width: 2px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    position: relative;
+    top: -100px;
+}
+
+
+/*SOBRE*/
+
+.textosub-header {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.textosub-header span {
+    font-family: 'opensansbold';
+    text-transform: uppercase;
+    font-size: 25pt;
+    color: #166BA2;
+}
+
+.linhasub-header{
+    width: 80px;
+    height: 2px;
+    background: yellow;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.textosub-header p{
+    font-family: 'opensansregular';
+    color: #93989B;
+    font-size: 14px;
+}
+
+.linhadeconteudo{
+    height: 230px;
+}
+
+.titulo-conteudo{
+    background-color: #edf1f4;
+    height: 230px;
+}
+
+.titulo-conteudo h2{
+    color: #166BA2;
+    font-family: 'opensanslight';
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 15px;
+}
+
+.texto-conteudo{
+    height: 230px;
+}
+
+.foto-conteudo,
+.foto-conteudo img {
+    height: 230px;
+    width: 100%;
+}
+
+.texto-conteudo span{
+    font-family: 'opensanslight';
+    font-size: 20px;
+
+    color:#166BA2; 
+}
+
+.texto-conteudo p{
+    font-family: 'opensanslight';
+    margin-top: 10px;
+    font-size: 15px;
+    color:#166BA2; 
+}
+
+.leia{
+    font-size: 13px !important;
+    margin-top: 150px !important;
+}
+
+.retira-padding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.frase-sobre{
+    color:#35d3d4;
+    text-align: center;
+    font-family: 'opensanslight';
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+
+
+/*FOOTER*/
+
+.logo-footer{
+    text-align: center;
+    position: relative;
+    top: -75px;
+}
+
+.coluna-footer{
+    position: relative;
+    top: -30px;
+}
+
+.coluna-footer ul li{
+    display: inline;
+    padding-right: 15px;
+    font-family: 'opensansbold';
+    color: #959595;
+    text-transform: uppercase;
+    font-size: 11px;
+
+
+}
+.coluna-footer ul{
+    margin-bottom: 50px;
+}
+.lista-footer {
+    margin: 0px;
+    padding: 0px;
+}
+
+.titulo-footer{
+    font-family: 'opensansbold';
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.botao-news{
+    position: relative;
+    
+    
+    font-family: 'opensansregular';
+    text-transform: uppercase;
+    font-size: 11px;
+    padding-top: 11px;
+  top: 5px;
+}
+
+.input-footer{
+    width: 270px !important;
+}
+
+.input-footer::-webkit-input-placeholder{
+    font-family: 'opensansregular';
+    color: #0f7ac0;
+    font-size: 12px;
+}
+
+.titulo-sobrenos{
+  position: relative;
+  top: -100px;
+  text-align: center;
+  margin-right: 100px;
+}
+
+.conteudo-sobre{
+  padding-right: 100px;
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+.segunda-coluna{
+  position: relative;
+  left: 30px;
+}
+
+.titulo-footer-centro{
+    text-align: center;
+}
+
+.endereco{
+    color:#7d7d7d;
+    font-family: 'opensansbold';
+    font-size: 11px;
+    text-align: center;
+}
+
+.fundo-footer{
+    background: #eff5f5;
+  top: 150px;
+}
+
+.copyright{
+    text-align: center;
+    font-family: "opensansbold";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #095f97;
+    margin-bottom: 50px;
+}
+
+
+
+.logo-mobile{
+  text-align: center;
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+}
+
+
+/*Serviços*/
+
+.linha-servicos{
+    height: 280px;
+    margin-top: 60px;
+}
+
+.linha-servicos-2{
+   
+    padding-right: 0px !important;
+    margin-top: 15px;
+}
+
+.linha-servicos-4{
+   
+    padding-right: 0px !important;
+    margin-top: 15px;
+}
+
+.coluna-servicos{
+    height: 840px;
+}
+
+.texto-servicos{
+    background: #edf1f4;
+    height: 280px;
+}
+
+.texto-servicos-2{
+    
+    background: #edf1f4;
+    height: 280px;
+
+}
+.texto-servicos-3{
+    
+    background: #edf1f4;
+    height: 280px;
+    padding-right: 30px !important;
+    top: -280px;
+
+}
+
+.img-servicos{
+    height: 280px;
+}
+.img-servicos-2{
+    height: 600px;
+    padding-left: 0px !important;
+}
+
+.img-servicos-3{
+    
+    padding-left: 0px !important;
+    margin-top: 15px;
+}

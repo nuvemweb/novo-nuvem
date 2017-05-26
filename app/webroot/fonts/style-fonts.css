@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'codebold';
+    src:
+         url('codebold.otf') format('otf'),
+         url('codebold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'codelight';
+    src:
+         url('codelight.otf') format('otf'),
+         url('codelight.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'opensansbold';
+    src:
+         url('OpenSans-Bold.ttf') format('ttf'),
+         url('OpenSans-Bold.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'opensansregular';
+    src:
+         url('OpenSans-Regular.ttf') format('ttf'),
+         url('OpenSans-Regular.woff') format('woff');
+
+}
+
+@font-face {
+    font-family: 'opensanslight';
+    src:
+         url('OpenSans-Light.ttf') format('ttf'),
+         url('OpenSans-Light.woff') format('woff');
+
+}
+
+
+
+
